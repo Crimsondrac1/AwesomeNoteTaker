@@ -7,8 +7,14 @@
 
   ---
   ## Installation
-  #### If you want to run the aplication, you will need to install NodeJS, Express, Path and FS. Start with 'node server' to run on local host on port 3001.
+  #### If you want to run the aplication, you will need to install NodeJS, Express, Path, JSON-Server and FS. Start with 'node server' to run on local host on port 3001.
  
   ## Media
-  #### ![./screenShot_01.jpg](./screenShot_01.jpg)
+  Screenshot:
+  ![Screenshot](./screenShot_01.jpg)
+
+  [Heroku URL](https://awesome-note-taker-a1.herokuapp.com/)
+
+  [Github Repo](https://github.com/Crimsondrac1/AwesomeNoteTaker)
+  
   
