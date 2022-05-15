@@ -7,7 +7,8 @@
 
   ---
   ## Installation
-  #### If you want to run the aplication, you will need to install NodeJS, Express, and FS. Start with 'node server' to run on local host on port 3001.
+  #### If you want to run the application, you will need to install NodeJS, Express, and FS. Start with 'node server' to run on local host on port 3001.
+  NOTE: Heroku does not seem to allow access to the JSON dB file so to test, you will need to download and install Node and dependencies.
  
   ## Media
   Screenshot:
@@ -16,5 +17,3 @@
   [Heroku URL](https://awesome-note-taker-a1.herokuapp.com/)
 
   [Github Repo](https://github.com/Crimsondrac1/AwesomeNoteTaker)
-  
-  
