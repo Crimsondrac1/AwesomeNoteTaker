@@ -7,7 +7,7 @@
 
   ---
   ## Installation
-  #### If you want to run the aplication, you will need to install NodeJS, Express, Path, JSON-Server and FS. Start with 'node server' to run on local host on port 3001.
+  #### If you want to run the aplication, you will need to install NodeJS, Express, and FS. Start with 'node server' to run on local host on port 3001.
  
   ## Media
   Screenshot:

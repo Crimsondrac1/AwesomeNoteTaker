@@ -4,14 +4,6 @@ const PORT = process.env.PORT || 3001;
 const api = require("./routes/api")
 const html = require('./routes/html');
 
-const jsonServer = require('json-server');
-const server = jsonServer.create();
-const router = jsonServer.router('./db/db.json'); // <== Will be created later
-const middlewares = jsonServer.defaults();
-
-server.use(middlewares);
-server.use(router);
-
 app.use(express.static('public'));
 app.use('/', html);
 app.use("/api", api)
