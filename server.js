@@ -7,8 +7,8 @@ const html = require('./routes/html');
 app.use(express.static('public'));
 app.use('/', html);
 app.use("/api", api)
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
+// app.use(express.urlencoded({ extended: true }));
+// app.use(express.json());
 
 
 //===========================================================================

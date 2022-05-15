@@ -36,9 +36,9 @@ router
             if (err) {
                 return console.log(err);
             }
-            res.send("Note Saved");
+            console.log("Note Saved");
         });
-        res.json(newNote);
+        res.json(req.body);
     });
 
     router
@@ -55,7 +55,7 @@ router
             if (err) {
                 return console.log(err);
             } else {
-                res.send("Note Deleted");
+                console.log("Note Deleted");
             }
         });
         res.json(store);
